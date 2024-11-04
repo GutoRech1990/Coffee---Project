@@ -119,3 +119,15 @@ menu a:hover{
     font-family: "Playwrite GB S", cursive;
     text-align: center;
 }
+
+.flag img{
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.up img{
+    width: 40px;
+    border-radius: 50%;
+}
