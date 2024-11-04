@@ -1,0 +1,121 @@
+body{
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+}
+
+body::before{
+    content: "";
+    display: block;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./Images/banner.webp);
+    background-image: url(./Images/pexels-coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+html{
+    height: 100%;
+}
+
+
+
+.pageOne{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+menu{
+    background-color: #914108;
+    display: flex;
+    flex-direction: row-wrap;
+    height: auto;
+    /* flex-basis: 100%; */
+    width: 100%;
+    font-size: 2.5em;
+    justify-content: flex-end;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    /* position: fixed; */
+    box-shadow: rgb(130, 42, 0) 0px 5px, rgb(110, 42, 0) 0px 10px, rgb(100, 42, 0) 0px 15px;
+
+}
+
+menu img{
+    width: 40px;
+}
+
+menu li{
+    display: inline;
+}
+
+menu a{
+    display: inline;
+    color: aliceblue;
+    text-decoration: none;
+    /* padding-right: 30px; */
+    text-align: center;
+    margin-right: 30px;
+}
+
+menu a:hover{
+    border-top: solid;
+    border-bottom: solid;
+}
+
+.welcome{
+    flex-basis: 50%;
+    text-align: justify;
+    background-color: rgba(240, 248, 255, 0.812);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-size: 1.5em;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    min-width: 400px;
+    max-width: 1200px;
+}
+
+.welcome img{
+    width: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 5px;
+}
+
+.coffee{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.coffee-text{
+    flex-basis: 45%;
+    min-width: 400px;
+}
+
+.coffee-img{
+    flex-basis: 49%;
+    align-items: center;
+    align-content: center;
+}
+
+.coffee-img img{
+    border-radius: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 100%;
+    height: 80%;
+    object-fit: cover; 
+}
+
+.welcome h1{
+    font-family: "Playwrite GB S", cursive;
+    text-align: center;
+}
