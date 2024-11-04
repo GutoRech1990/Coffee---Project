@@ -44,6 +44,8 @@ menu{
     padding: 0;
     /* position: fixed; */
     box-shadow: rgb(130, 42, 0) 0px 5px, rgb(110, 42, 0) 0px 10px, rgb(100, 42, 0) 0px 15px;
+    position: sticky;
+    top: 0;
 
 }
 
@@ -74,7 +76,7 @@ menu a:hover{
     text-align: justify;
     background-color: rgba(240, 248, 255, 0.812);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 50px;
     border-radius: 20px;
     margin: 0 auto;
